@@ -36,4 +36,4 @@ The dataset consists of 4 years of sales data at a date-store-product level, alo
 Different models were applied to various use cases to optimize forecasts across multiple functions such as supply chain, budget planning, and inventory management.
 
 ## Appendix
-Additional visualizations and code snippets are provided in the appendix of the report. For more detailed information, please refer to the project report.
+Additional visualizations and code snippets are provided in the report. For more detailed information, please refer to the project report.
