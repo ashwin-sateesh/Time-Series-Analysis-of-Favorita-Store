@@ -19,16 +19,13 @@ The dataset consists of 4 years of sales data at a date-store-product level, alo
 
 ## Modeling Techniques
 
-### Statistical Models
-
-1. **Holt Winters Exponential Smoothing**: Used for forecasting with seasonal and trend components.
-2. **ARIMA**: Auto Regression Integrated Moving Average model for time series forecasting.
-3. **SARIMAX**: Seasonal ARIMA with exogenous variables, such as holidays.
+### Statistical Forecasting Models
+1. **Holt-Winters Exponential Smoothing**: Used for yearly per-unit sales forecasting for the next n months, useful for annual budgets and company review.
+2. **ARIMA (Auto Regressive Integrated Moving Average)**: Used for monthly per-unit sales forecasting for the next n months, helpful for supply chain and demand forecasting planning.
+3. **SARIMAX (Seasonal ARIMA with Exogenous Variables)**: Used for monthly per-unit sales forecasting for the next n months, considering external factors like holidays. Useful for supply chain and demand forecasting planning.
 
 ### Machine Learning Models
-
-1. **Random Forest**: Ensemble of decision trees using bootstrap samples.
-2. **XGBoost**: Gradient boosting algorithm that adds trees iteratively to improve model accuracy.
+1. **Random Forest and Xgboost**: Used for daily per-unit sales forecasting per store for the next year, helpful for resource allocation and cash flow management planning.
 
 ## Evaluation Metric
 
